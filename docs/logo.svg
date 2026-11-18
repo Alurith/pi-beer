@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-labelledby="title description">
+  <title id="title">pi beer</title>
+  <desc id="description">A tiny pixel beer. The only extension you really need.</desc>
+  <rect x="1" y="1" width="638" height="178" rx="18" fill="#11151c" stroke="#25313a" stroke-width="2"/>
+  <g shape-rendering="crispEdges">
+    <rect x="48" y="44" width="66" height="22" fill="#fffaeb"/>
+    <path d="M48 66h66v22H92v22h22v22H48z" fill="#eaaa23"/>
+    <rect x="114" y="66" width="22" height="44" fill="#ffdc82"/>
+  </g>
+  <text x="168" y="105" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="64" font-weight="700" letter-spacing="-2"><tspan fill="#fffaeb">pi</tspan><tspan dx="18" fill="#eaaa23">beer</tspan></text>
+  <text x="172" y="140" fill="#99a7b3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16">the only extension you really need</text>
+</svg>

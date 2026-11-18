@@ -1,0 +1,39 @@
+{
+  "name": "pi-beer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny beer logo for Pi with its original fullscreen animation and configurable styles.",
+  "license": "MIT",
+  "author": "Alessandro Ferrini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alurith/pi-beer.git"
+  },
+  "keywords": ["pi-package"],
+  "type": "module",
+  "files": [
+    "index.ts",
+    "preferences.ts",
+    "model.js",
+    "native-screen.js",
+    "raster.js",
+    "animation.js",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "UPSTREAM.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  }
+}
